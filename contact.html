@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Responsive portfolio website</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img src="./assets/img/logo.png" alt="logo" />
+        </a>
+        <div id="navLinks" class="nav-links">
+          <svg
+            class="fa"
+            onclick="hideMenu()"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="m8.4 17l3.6-3.6l3.6 3.6l1.4-1.4l-3.6-3.6L17 8.4L15.6 7L12 10.6L8.4 7L7 8.4l3.6 3.6L7 15.6zm3.6 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8"
+            />
+          </svg>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <svg
+          class="fa"
+          onclick="showMenu()"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M4 18q-.425 0-.712-.288T3 17t.288-.712T4 16h16q.425 0 .713.288T21 17t-.288.713T20 18zm0-5q-.425 0-.712-.288T3 12t.288-.712T4 11h16q.425 0 .713.288T21 12t-.288.713T20 13zm0-5q-.425 0-.712-.288T3 7t.288-.712T4 6h16q.425 0 .713.288T21 7t-.288.713T20 8z"
+          />
+        </svg>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11542.600483251561!2d-79.42056447441455!3d43.67624595894929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b349c06ccb215%3A0xecdab22933de4639!2sGeorge%20Brown%20College%20-%20Casa%20Loma%20Campus%20-%20F%20Building!5e0!3m2!1szh-TW!2sca!4v1736194485208!5m2!1szh-TW!2sca"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <div class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <svg
+              class="footer-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7 10v4h3v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3V3h-3a5 5 0 0 0-5 5v2z"
+              />
+            </svg>
+            <span>
+              <h5>XYZ Road , ABC Building</h5>
+              <p>Band, kai, caso loma</p>
+            </span>
+          </div>
+
+          <div>
+            <svg
+              class="footer-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7 10v4h3v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3V3h-3a5 5 0 0 0-5 5v2z"
+              />
+            </svg>
+            <span>
+              <h5>+1 123 3214553</h5>
+              <p>Monday to Saturday, 10am to 6pm</p>
+            </span>
+          </div>
+
+          <div>
+            <svg
+              class="footer-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7 10v4h3v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3V3h-3a5 5 0 0 0-5 5v2z"
+              />
+            </svg>
+            <span>
+              <h5>info@gmail.com</h5>
+              <p>Email us your quesry</p>
+            </span>
+          </div>
+
+        </div>
+        <div class="contact-col">
+          <form action="">
+            <input type="text" placeholder="Enter your name" required />
+            <input type="email" placeholder="Enter email address" required />
+            <input type="text" placeholder="Enter your subject" required />
+            <textarea
+              rows="8"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        voluptatem, quod, quae, quos quibusdam
+      </p>
+      <div class="icon">
+        <svg
+          class="footer-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M7 10v4h3v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3V3h-3a5 5 0 0 0-5 5v2z"
+          />
+        </svg>
+        <svg
+          class="footer-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+        >
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          >
+            <path
+              d="M4 8a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"
+            />
+            <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0-6 0m7.5-4.5v.01" />
+          </g>
+        </svg>
+        <svg
+          class="footer-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M22 4.01c-1 .49-1.98.689-3 .99c-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4c0 0-4.182 7.433 4 11c-1.872 1.247-3.739 2.088-6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58-1.04 6.522-3.723 7.651-7.742a13.8 13.8 0 0 0 .497-3.753c0-.249 1.51-2.772 1.818-4.013z"
+          />
+        </svg>
+        <svg
+          class="footer-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+        >
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          >
+            <path d="m3 21l1.65-3.8a9 9 0 1 1 3.4 2.9z" />
+            <path
+              d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0za5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"
+            />
+          </g>
+        </svg>
+      </div>
+      <p>© 2021 Eddy CHAN. All Rights Reserved.</p>
+    </section>
+  </body>
+</html>
+
+<script>
+  function showMenu() {
+    document.getElementById("navLinks").style.right = "0";
+  }
+
+  function hideMenu() {
+    document.getElementById("navLinks").style.right = "-200px";
+  }
+</script>
